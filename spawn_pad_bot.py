@@ -42,4 +42,4 @@ async def on_message(message):
         except discord.errors.Forbidden:
             await client.send_message(channel, "you just tried to ask for a role that i can't give you")
 
-client.run("NDU1Nzc4MjczNDM2MTA2NzU0.DgA8KA.j8ewyQYQVhv1HNEFLL7Pn7mtg2A")
+client.run("bot token")
